@@ -9,7 +9,7 @@ import UserAvatar from "@/components/ui/user-avatar/UserAvatar";
 import VideoStatistics from "@/components/ui/video-item/VideoStatistics";
 
 interface ILargeVideoItem {
-    video:  IVideo
+    video: IVideo
 }
 const LargeVideoItem: FC<ILargeVideoItem> = ({video}) => {
     return (

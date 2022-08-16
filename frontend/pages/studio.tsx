@@ -1,8 +1,8 @@
 import {NextPageAuth} from "@/providers/private-route.interface";
-
+import Studio from "@/components/pages/studio/Studio";
 
 const StudioPage: NextPageAuth = () => {
-    return <div>Studio</div>
+    return <Studio />
 }
 
 StudioPage.isOnlyUser = true

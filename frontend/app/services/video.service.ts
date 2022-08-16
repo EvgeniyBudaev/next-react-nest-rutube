@@ -10,6 +10,6 @@ export const VideoService = {
 	},
 
 	async getMostPopular() {
-		return axiosClassic.get<IVideo>(`/${VIDEO}/most-popular}`)
+		return axiosClassic.get<IVideo[]>(`/${VIDEO}/most-popular}`)
 	}
 }
